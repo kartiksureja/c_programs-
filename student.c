@@ -30,7 +30,7 @@ void input(STD *s)
 {
     
         printf("enter the roll number ");
-        scanf("%d",(s->roll));
+        scanf("%d",&(s->roll));
         printf("enter the name  ");
         scanf("%s",&(s->name));
         printf("enter the marks of test 1 ");
